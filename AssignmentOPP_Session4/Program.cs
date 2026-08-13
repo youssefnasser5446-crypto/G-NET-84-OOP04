@@ -1,5 +1,6 @@
 ﻿using AssignmentOPP_Session4;
 using System.Reflection.Metadata;
+using System.Security.Claims;
 
 namespace Assignment_Session03OOP
 {
@@ -20,6 +21,32 @@ namespace Assignment_Session03OOP
             ans => Because it helps reduce complexity by hiding unnecessary implementation details 
             and exposing only the essential features
 
+             */
+
+            #endregion
+
+            #region Question02
+
+            /*
+              
+             a)  What is the difference between an Abstract Class and an Interface?
+
+            ans => In an abstract class, you can define fields and mix regular methods with abstract ones;
+            regarding inheritance, a subclass can inherit from only one abstract class. An interface,
+            however, has no constructor; you can  include default, abstract, and static methods,
+            and the fields allowed are constants—though a class can implement multiple interfaces.
+
+
+              b)  When would you choose an Interface instead of an Abstract Class?
+
+             ans =>  eI choose an interface when I want to define a contract that different,
+            unrelated classes can implement, and when I need a class to implement multiple contracts.
+
+
+            c)  Can a class inherit from multiple abstract classes? Can it implement multiple interfaces?
+
+            No, a class cannot inherit from multiple abstract classes.
+            Yes, a class can implement multiple interfaces.
              */
 
             #endregion
