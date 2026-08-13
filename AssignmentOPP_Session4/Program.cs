@@ -8,6 +8,22 @@ namespace Assignment_Session03OOP
         static void Main(string[] args)
         {
 
+            #region Question01
+
+            /*
+             a)  What is Abstraction in Object-Oriented Programming?
+
+            ans => Abstraction means hiding complex implementation details and exposing only the essential features
+
+            b)  Why is abstraction considered one of the four pillars of OOP?
+
+            ans => Because it helps reduce complexity by hiding unnecessary implementation details 
+            and exposing only the essential features
+
+             */
+
+            #endregion
+
             StandardShipment standard = new StandardShipment("SH001", "Laptop", 3, 80);
             ExpressShipment Express = new ExpressShipment("SH002", "Mobile Phone", 2, 60, 30);
             InternationalShipment international = new InternationalShipment("SH003", "Televition", 8, 120, "Germany", 100);
